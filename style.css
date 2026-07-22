@@ -1,0 +1,251 @@
+html{
+    scroll-behavior:smooth;
+}
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#f8fffb;
+    padding-top:75px;
+}
+
+/* Navbar */
+.navbar{
+    padding:18px 0;
+}
+
+.navbar-brand{
+    font-size:28px;
+}
+
+.nav-link{
+    margin-left:18px;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#198754 !important;
+}
+
+/* Hero */
+
+h1{
+    line-height:1.2;
+}
+
+.lead{
+    color:#555;
+}
+
+.btn{
+    border-radius:50px;
+    padding:12px 28px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+img{
+    transition:.4s;
+}
+
+img:hover{
+    transform:scale(1.03);
+}
+/* Floating WhatsApp */
+
+.whatsapp-float{
+    position:fixed;
+    bottom:25px;
+    right:25px;
+    width:65px;
+    height:65px;
+    background:#25D366;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:32px;
+    text-decoration:none;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+    transition:.3s;
+    z-index:999;
+}
+
+.whatsapp-float:hover{
+    transform:scale(1.1);
+    color:white;
+}
+.btn-success{
+    transition:.3s;
+}
+
+.btn-success:hover{
+    transform:translateY(-3px);
+    box-shadow:0 15px 25px rgba(25,135,84,.35);
+}
+.hero-section{
+    min-height:90vh;
+    display:flex;
+    align-items:center;
+    background:linear-gradient(135deg,#f7fff8,#e9fff2);
+    border-radius:30px;
+    padding:70px;
+    margin-top:20px;
+}
+.card{
+    border:none;
+    border-radius:22px;
+    transition:.4s;
+    overflow:hidden;
+}
+
+.card:hover{
+    transform:translateY(-12px);
+    box-shadow:0 25px 50px rgba(0,0,0,.12)!important;
+}
+img{
+    border-radius:25px;
+}
+.display-3{
+    font-size:4rem;
+    line-height:1.2;
+}
+
+.text-success{
+    color:#2e8b57!important;
+}
+section{
+    padding-top:90px;
+    padding-bottom:90px;
+}
+/* Navbar */
+
+.navbar{
+    backdrop-filter: blur(10px);
+    transition:0.3s;
+}
+
+.navbar-brand{
+    font-size:1.7rem;
+    font-weight:700;
+}
+
+.nav-link{
+    font-weight:500;
+    margin-left:15px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#198754!important;
+}
+body{
+    background:#f8fcfa;
+}
+#topBtn{
+    display:none;
+    position:fixed;
+    bottom:95px;   /* Above WhatsApp */
+    right:25px;
+    z-index:999;
+    border:none;
+    outline:none;
+    background:#198754;
+    color:white;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    font-size:22px;
+    box-shadow:0 5px 15px rgba(0,0,0,.3);
+    transition:.3s;
+}
+.btn{
+    border-radius:50px;
+    padding:12px 28px;
+    font-weight:600;
+    transition:all .3s ease;
+}
+
+.btn-success{
+    background:#198754;
+    border:none;
+}
+
+.btn-success:hover{
+    background:#157347;
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(25,135,84,.3);
+}
+
+.btn-outline-success{
+    border:2px solid #198754;
+}
+
+.btn-outline-success:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 20px rgba(25,135,84,.2);
+}
+#loader{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 99999;
+}
+.gallery-img{
+    transition:.4s;
+}
+
+.gallery-img:hover{
+    transform:scale(1.05);
+    box-shadow:0 12px 30px rgba(0,0,0,.25);
+}
+.navbar{
+    backdrop-filter:blur(12px);
+    transition:.3s;
+}
+
+.nav-link{
+    font-weight:600;
+    margin-left:12px;
+    position:relative;
+}
+
+.nav-link::after{
+    content:'';
+    position:absolute;
+    left:0;
+    bottom:-3px;
+    width:0;
+    height:2px;
+    background:#198754;
+    transition:.3s;
+}
+
+.nav-link:hover::after{
+    width:100%;
+}
+
+.navbar-brand{
+    font-size:1.6rem;
+    letter-spacing:1px;
+}
