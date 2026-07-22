@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://yogenchittam.netlify.app/sitemap.xml
